@@ -1,0 +1,6 @@
+__pycache__/
+*.tmp
+_*
+node_modules/
+.pytest_cache/
+!__init__.py

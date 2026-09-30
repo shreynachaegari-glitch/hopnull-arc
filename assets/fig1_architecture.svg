@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900"><defs><marker id="a-nav" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-amb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666666"/></marker></defs><rect x="0" y="0" width="1400" height="900" fill="#FFFFFF"/>
+<text x="24" y="38" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" fill="#000000" text-anchor="start">HOPNULL-ARC  |  System Architecture — upgraded baseline</text>
+<text x="24" y="60" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#666666" text-anchor="start">Direction-state nulling on a Y array · single hardware commit authority · two-tier board fail-safe · security &amp; tamper domain · every tag says when it ships</text>
+<rect x="868" y="32" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="879.7" y="44.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">V1</text>
+<text x="896.4" y="44" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">core</text>
+<rect x="929.8" y="32" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="941.5" y="44.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<text x="958.1999999999999" y="44" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">hardening (in V1)</text>
+<rect x="1077.3999999999999" y="32" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="1089.1" y="44.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<text x="1105.8" y="44" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">in-project</text>
+<rect x="1178.8" y="32" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="1190.5" y="44.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T3</text>
+<text x="1207.2" y="44" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">future</text>
+<rect x="236" y="176" width="928" height="530" rx="10" fill="none" stroke="#000000" stroke-width="1.2" stroke-dasharray="3 4"/>
+<text x="252" y="688" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="bold" fill="#000000" text-anchor="start">HOPNULL-ARC digital core — FPGA prototype → SCL 180 nm (C2S)</text>
+<rect x="20" y="86" width="200" height="76" rx="8" fill="#F2F2F2" stroke="#000000" stroke-width="1.5"/>
+<path d="M62,124 L62.0,102.0" fill="none" stroke="#666666" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="62.0" cy="102.0" r="5.5" fill="#000000" stroke="none" stroke-width="0"/>
+<path d="M62,124 L81.05255888325766,135.0" fill="none" stroke="#666666" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="81.05255888325766" cy="135.0" r="5.5" fill="#000000" stroke="none" stroke-width="0"/>
+<path d="M62,124 L42.94744111674235,135.0" fill="none" stroke="#666666" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="42.94744111674235" cy="135.0" r="5.5" fill="#000000" stroke="none" stroke-width="0"/>
+<circle cx="62" cy="124" r="5.5" fill="#000000" stroke="none" stroke-width="0"/>
+<text x="96" y="110" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="bold" fill="#000000" text-anchor="start">Y array (belly)</text>
+<text x="96" y="128" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#000000" text-anchor="start">centre + 3 @ 120°</text>
+<text x="96" y="144" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#000000" text-anchor="start">r = 0.45λ = 54 mm</text>
+<text x="96" y="157" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#666666" text-anchor="start">centre = bypass ref.</text>
+<rect x="250" y="86" width="200" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="262" y="111" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="bold" fill="#000000" text-anchor="start">IMU / AHRS</text>
+<text x="262" y="129" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">ATTITUDE q · RATE ω</text>
+<text x="262" y="148.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">GNSS-free · skew ≤ 100 µs</text>
+<rect x="470" y="86" width="215" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="482" y="111" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="bold" fill="#000000" text-anchor="start">Navigation</text>
+<text x="482" y="129" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">GCS DIRECTION a_D</text>
+<text x="482" y="148.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">20° error → 1.1 dB loss</text>
+<rect x="725" y="86" width="240" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="736" y="99" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="747.7" y="111.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<text x="766.4" y="111" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="bold" fill="#000000" text-anchor="start">Case B: no sideband</text>
+<text x="737" y="129" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">channelizer + dwell timer</text>
+<text x="737" y="145" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">coast 225 hops · 1.1% dwell exposed</text>
+<rect x="1130" y="86" width="250" height="76" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1142" y="111" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">FH modem sideband (Case A)</text>
+<text x="1142" y="128.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">HOP_STROBE · NEXT_FREQ ≥ 1 hop</text>
+<text x="1142" y="144.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">TX_ACTIVE (blank on transmit)</text>
+<rect x="20" y="192" width="200" height="282" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.8" stroke-dasharray="8 5"/>
+<text x="32" y="217" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#000000" text-anchor="start">RF front end</text>
+<text x="32" y="235" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">PROTECT · CONDITION</text>
+<text x="32" y="254" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">4 coherent RX, one LO</text>
+<text x="32" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">+ one sample clock</text>
+<text x="32" y="288" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">fixed LO, wideband ADC,</text>
+<text x="32" y="305" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">per-hop digital NCO</text>
+<text x="32" y="322" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">(PLL relock &gt; guard G)</text>
+<text x="32" y="339" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">common AGC</text>
+<text x="32" y="356" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">per-channel clip counters</text>
+<rect x="28" y="432" width="184" height="25.5" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="35" y="436.5" width="22.090909090909093" height="16" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="46.04545454545455" y="448.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<text x="62.09090909090909" y="447.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">adaptive AGC loop</text>
+<rect x="250" y="192" width="210" height="282" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<text x="262" y="217" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#000000" text-anchor="start">B1 Observation</text>
+<text x="262" y="235" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">OBSERVE</text>
+<text x="262" y="254" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">late window K=256 (25.6 µs)</text>
+<text x="262" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">3 centre-arm correlators</text>
+<text x="262" y="288" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">2-D phase-gradient DoA</text>
+<text x="262" y="305" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">gates: coherence, closure,</text>
+<text x="262" y="322" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">presence, mainlobe (≤3 dB)</text>
+<text x="262" y="339" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">body → earth frame (IMU)</text>
+<text x="262" y="356" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">FIISM ← dir + σ + tilt</text>
+<rect x="485" y="192" width="235" height="282" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<text x="497" y="217" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#000000" text-anchor="start">B2 Candidate</text>
+<text x="497" y="235" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">SYNTHESIZE</text>
+<text x="497" y="254" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">earth → body, predicted q(n+1)</text>
+<text x="497" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">CORDIC steering at f(n+1)</text>
+<text x="497" y="288" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">w = M·a_D − ρ·a_J (closed form)</text>
+<text x="497" y="305" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">CLZ + 16-LUT (≤0.5 dB step)</text>
+<text x="497" y="322" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">self-check: |a| = 1,</text>
+<text x="497" y="339" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">null ≤ -50 dB → transaction</text>
+<rect x="493" y="400" width="219" height="55" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="500" y="404" width="22.090909090909093" height="16" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="511.04545454545456" y="415.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<text x="527.0909090909091" y="415" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">V2: 2 jammers, 4×4 Cholesky</text>
+<text x="505" y="430" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">model R at f(n+1), per hop;</text>
+<text x="505" y="445" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">EVD + grid MUSIC in background</text>
+<rect x="745" y="192" width="225" height="282" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<text x="757" y="217" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#000000" text-anchor="start">B3 Transaction mgr</text>
+<text x="757" y="235" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">FIISM · COMMIT · RETAIN</text>
+<text x="757" y="254" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">FRESH → FIISM → BYPASS</text>
+<text x="757" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">freq-tag invariant</text>
+<text x="757" y="288" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">TRUST_CUT watermark</text>
+<text x="757" y="305" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">TILT_MAX re-observe rule</text>
+<text x="757" y="322" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">sample-index commit,</text>
+<text x="757" y="339" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">mute inside guard G</text>
+<rect x="753" y="400" width="209" height="55" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.1"/>
+<rect x="760" y="404" width="22.090909090909093" height="16" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="771.0454545454545" y="415.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<text x="787.0909090909091" y="415" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">FIISM ECC + zeroize</text>
+<rect x="760" y="419" width="22.090909090909093" height="16" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="771.0454545454545" y="430.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<text x="787.0909090909091" y="430" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">Case-B dwell arbitration</text>
+<rect x="760" y="434" width="22.090909090909093" height="16" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="771.0454545454545" y="445.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T3</text>
+<text x="787.0909090909091" y="445" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">lockstep commit logic</text>
+<rect x="995" y="192" width="160" height="282" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<text x="1007" y="217" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#000000" text-anchor="start">B4 Beamformer</text>
+<text x="1007" y="235" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">APPLY</text>
+<text x="1007" y="254" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">y = w<tspan dy="-4.8" font-size="9.1">H</tspan><tspan dy="4.8">x, 4 cMACs</tspan></text>
+<text x="1007" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">mode-blind</text>
+<text x="1007" y="288" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">double-buffered</text>
+<text x="1007" y="305" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">CRC check at swap</text>
+<text x="1007" y="322" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">saturation</text>
+<text x="1007" y="339" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">telemetry</text>
+<text x="1007" y="356" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">→ DUC / DAC</text>
+<rect x="1180" y="192" width="200" height="282" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.8" stroke-dasharray="8 5"/>
+<text x="1192" y="217" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#000000" text-anchor="start">Board fail-safe</text>
+<text x="1192" y="235" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">INDEPENDENT SAFETY PATH</text>
+<text x="1192" y="254" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">watchdog: 3 missed</text>
+<text x="1192" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">heartbeats → SPDT 1 µs</text>
+<text x="1192" y="288" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">NC coax relay:</text>
+<text x="1192" y="305" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">power loss → ≤15 ms</text>
+<text x="1192" y="322" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">centre element</text>
+<text x="1192" y="339" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">→ modem direct</text>
+<rect x="1188" y="432" width="184" height="25.5" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.1"/>
+<rect x="1195" y="436.5" width="22.090909090909093" height="16" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="1206.0454545454545" y="448.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<text x="1222.090909090909" y="447.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.2" font-weight="normal" fill="#000000" text-anchor="start">TAMPER_N forces bypass</text>
+<path d="M220,310 L248,310" fill="none" stroke="#000000" stroke-width="2.4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M460,310 L483,310" fill="none" stroke="#000000" stroke-width="2.4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M720,310 L743,310" fill="none" stroke="#000000" stroke-width="2.4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M970,310 L993,310" fill="none" stroke="#000000" stroke-width="2.4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M1155,310 L1178,310" fill="none" stroke="#000000" stroke-width="2.4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M120,162 L120,190" fill="none" stroke="#000000" stroke-width="2.2" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M350,162 L350,190" fill="none" stroke="#000000" stroke-width="2.0" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M430,162 L430,172 L540,172 L540,190" fill="none" stroke="#000000" stroke-width="2.0" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M600,162 L600,190" fill="none" stroke="#000000" stroke-width="2.0" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M845,162 L845,190" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#a-amb)" stroke-linejoin="round"/>
+<path d="M1130,112 L982,112 L982,212 L972,212" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<path d="M1280,192 L1280,164" fill="none" stroke="#000000" stroke-width="2.2" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<text x="1288" y="180" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#666666" text-anchor="start">RF out</text>
+<text x="990" y="106" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#666666" text-anchor="start">sideband</text>
+<path d="M250,449 L222,449" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="5 3" marker-end="url(#a-amb)" stroke-linejoin="round"/>
+<rect x="250" y="500" width="290" height="150" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="262" y="525" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="bold" fill="#000000" text-anchor="start">Control plane — Ibex RV32</text>
+<text x="262" y="543" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">ADVISORY ONLY · NO COMMIT AUTHORITY</text>
+<text x="262" y="562" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">kinematic classifier → MAX_AGE_eff</text>
+<text x="262" y="579" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">configuration + telemetry (AXI-Lite)</text>
+<text x="262" y="596" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">write-once safety locks</text>
+<text x="262" y="613" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">debug module off in mission mode</text>
+<rect x="560" y="500" width="225" height="150" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="572" y="525" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="bold" fill="#000000" text-anchor="start">Safety bounds</text>
+<text x="572" y="543" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">HARDWIRED / OTP</text>
+<text x="572" y="562" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">MAX_AGE_MIN / MAX</text>
+<text x="572" y="579" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">TILT_MAX · HOP_MIN / MAX</text>
+<text x="572" y="596" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">gate thresholds</text>
+<text x="572" y="613" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">NULL_CHECK -50 dB</text>
+<rect x="805" y="500" width="350" height="190" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="816" y="513" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="827.7" y="525.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<text x="846.4" y="525" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="bold" fill="#000000" text-anchor="start">Security &amp; tamper domain</text>
+<text x="817" y="543.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">TAP / JTAG, boundary scan, Ibex debug:</text>
+<text x="817" y="560.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">  gated by OTP mission lock</text>
+<text x="817" y="576.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">scan / test-mode entry ⇒ zeroize first</text>
+<text x="817" y="593.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">secure boot: authenticated bitstream + FW</text>
+<text x="817" y="609.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">tamper: lid switches + light sensor + potting</text>
+<text x="817" y="626.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">  → TAMPER_N → zeroize (1.6 µs) + bypass</text>
+<text x="817" y="642.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">SEU: parity/ECC, config scrub, bundle CRC</text>
+<rect x="20" y="500" width="200" height="190" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="31" y="513" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="42.7" y="525.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<text x="61.4" y="525" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="bold" fill="#000000" text-anchor="start">Environment</text>
+<text x="32" y="543" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.2" font-weight="normal" fill="#666666" text-anchor="start" letter-spacing="0.4">SCREENING TEST PLAN</text>
+<text x="32" y="561.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">JSS 55555 / MIL-STD-810H</text>
+<text x="32" y="578.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">thermal · vibration · shock</text>
+<text x="32" y="594.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">pass: cal drift ≤ 1° RMS</text>
+<text x="32" y="611.0" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">(= 30 dB on 90% of</text>
+<text x="32" y="627.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.4" font-weight="normal" fill="#000000" text-anchor="start">geometries), array + RF</text>
+<path d="M120,500 L120,476" fill="none" stroke="#000000" stroke-width="1.6" stroke-dasharray="2 3" marker-end="url(#a-teal)" stroke-linejoin="round"/>
+<path d="M470,500 L470,476" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<text x="478" y="490" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#666666" text-anchor="start">advisory</text>
+<path d="M672,500 L672,486 L800,486 L800,476" fill="none" stroke="#000000" stroke-width="2.0" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<text x="664" y="496" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#666666" text-anchor="end">hard limits</text>
+<path d="M930,500 L930,476" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="2 3" marker-end="url(#a-red)" stroke-linejoin="round"/>
+<text x="922" y="490" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="end">zeroize</text>
+<path d="M1155,600 L1300,600 L1300,476" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="2 3" marker-end="url(#a-red)" stroke-linejoin="round"/>
+<text x="1163" y="592" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">force bypass</text>
+<path d="M955,474 L955,488 L1240,488 L1240,476" fill="none" stroke="#000000" stroke-width="1.6" marker-end="url(#a-red)" stroke-linejoin="round"/>
+<text x="1010" y="482" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#000000" text-anchor="start">heartbeat, one per commit</text>
+<rect x="20" y="716" width="765" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.4" stroke-dasharray="5 4"/>
+<rect x="32" y="730" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="43.7" y="742.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T3</text>
+<text x="61.4" y="742" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Future work — named, not built in this proposal</text>
+<text x="34" y="766" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• dual-redundant / lockstep B3 commit logic</text>
+<text x="414" y="766" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• direction-dependent calibration table (F11)</text>
+<text x="34" y="784" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• more than 2 simultaneous jammers</text>
+<text x="414" y="784" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• RF-over-fibre ground-station mast (separate variant)</text>
+<text x="34" y="802" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• active tamper-detect mesh (production)</text>
+<text x="414" y="802" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• 3-D (non-coplanar) element placement</text>
+<rect x="805" y="716" width="575" height="104" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.4" stroke-dasharray="2 3"/>
+<rect x="817" y="730" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="828.7" y="742.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T4</text>
+<text x="846.4" y="742" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Stated non-goals — deliberate, with rationale</text>
+<text x="819" y="766" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• N-modular redundancy</text>
+<text x="1089" y="766" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• EMP / HEMP and total-dose hardening</text>
+<text x="819" y="784" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• power / EM side-channel resistance</text>
+<text x="1089" y="784" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.6" font-weight="normal" fill="#000000" text-anchor="start">• kinetic / ballistic hardening</text>
+<text x="819" y="808" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#666666" text-anchor="start" font-style="italic">Cost unjustified at TRL 2→5, or outside the threat model (see §5).</text>
+<path d="M24,862 L68,862" fill="none" stroke="#000000" stroke-width="2.0" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<text x="76" y="866" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">sample / signal path</text>
+<path d="M234.0,862 L278.0,862" fill="none" stroke="#000000" stroke-width="2.0" stroke-dasharray="6 4" marker-end="url(#a-nav)" stroke-linejoin="round"/>
+<text x="286.0" y="866" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">control / transaction</text>
+<path d="M451.0,862 L495.0,862" fill="none" stroke="#000000" stroke-width="2.0" stroke-dasharray="2 3" marker-end="url(#a-red)" stroke-linejoin="round"/>
+<text x="503.0" y="866" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">safety / tamper action</text>
+<path d="M675.0,862 L719.0,862" fill="none" stroke="#000000" stroke-width="2.0" stroke-dasharray="5 3" marker-end="url(#a-amb)" stroke-linejoin="round"/>
+<text x="727.0" y="866" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">Tier-2 addition</text>
+<rect x="856.0" y="853" width="22" height="18" rx="4" fill="#F2F2F2" stroke="#000000" stroke-width="1.4" stroke-dasharray="8 5"/>
+<text x="886.0" y="866" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#333333" text-anchor="start">board-level (outside the chip's failure domain)</text>
+</svg>

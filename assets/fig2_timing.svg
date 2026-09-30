@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="486" viewBox="0 0 960 486"><defs><marker id="a-nav" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-amb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666666"/></marker></defs><rect x="0" y="0" width="960" height="486" fill="#FFFFFF"/>
+<text x="8" y="61" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Modem</text>
+<path d="M150,80 L950,80" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="113" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Front end</text>
+<path d="M150,132 L950,132" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="165" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Observe</text>
+<path d="M150,184 L950,184" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="217" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Compute</text>
+<path d="M150,236 L950,236" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="269" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">V2 (T2)</text>
+<path d="M150,288 L950,288" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="321" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Weights</text>
+<path d="M150,340 L950,340" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="373" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Output</text>
+<path d="M150,392 L950,392" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="425" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="start">Heartbeat</text>
+<path d="M150,444 L950,444" fill="none" stroke="#ECEBE7" stroke-width="1" stroke-linejoin="round"/>
+<path d="M175,22 L175,452" fill="none" stroke="#666666" stroke-width="1.2" stroke-dasharray="4 4" stroke-linejoin="round"/>
+<text x="175" y="17" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#333333" text-anchor="middle">B(n)</text>
+<path d="M735,22 L735,452" fill="none" stroke="#666666" stroke-width="1.2" stroke-dasharray="4 4" stroke-linejoin="round"/>
+<text x="735" y="17" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#333333" text-anchor="middle">B(n+1)</text>
+<rect x="175" y="42" width="26" height="32" rx="2" fill="#E3E2DE" stroke="#666666" stroke-width="1"/>
+<text x="188.0" y="63" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="middle">G</text>
+<rect x="735" y="42" width="26" height="32" rx="2" fill="#E3E2DE" stroke="#666666" stroke-width="1"/>
+<text x="748.0" y="63" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="middle">G</text>
+<rect x="201" y="42" width="534" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="455.0" y="63" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="middle">hop n at f(n): T_hop 1000 µs, guard G 20 µs</text>
+<rect x="761" y="42" width="189" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="769" y="63" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">hop n+1 at f(n+1)</text>
+<rect x="175" y="94" width="7" height="32" rx="2" fill="#F2F2F2" stroke="#000000" stroke-width="1"/>
+<rect x="735" y="94" width="7" height="32" rx="2" fill="#F2F2F2" stroke="#000000" stroke-width="1"/>
+<text x="191" y="115" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#333333" text-anchor="start">digital NCO retune 0.1 µs (an analog PLL, 40 µs, would overrun G)</text>
+<rect x="448" y="146" width="150" height="32" rx="2" fill="#F2F2F2" stroke="#000000" stroke-width="1.2"/>
+<text x="523.0" y="167" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="middle">K=256, 25.6 µs</text>
+<text x="440" y="167" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#333333" text-anchor="end">late window: catches followers</text>
+<rect x="603" y="198" width="42.48000000000002" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="624.24" y="219" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">B1</text>
+<rect x="645.48" y="198" width="51.91999999999996" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="671.44" y="219" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">B2</text>
+<rect x="697.4" y="198" width="23.600000000000023" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="709.1999999999999" y="219" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">B3</text>
+<text x="595" y="219" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#333333" text-anchor="end">11.9 µs worst case (×2 derated, 50 MHz)</text>
+<rect x="721" y="198" width="22" height="32" rx="2" fill="#F4F4F2" stroke="#666666" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="749" y="219" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#333333" text-anchor="start">TC1 slack 944 µs (6% used)</text>
+<rect x="691" y="250" width="30" height="32" rx="2" fill="#F2F2F2" stroke="#000000" stroke-width="1.2"/>
+<text x="683" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="end">per hop: Cholesky +5.8 µs</text>
+<rect x="189" y="250" width="286" height="32" rx="2" fill="#F2F2F2" stroke="#000000" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="199" y="271" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">background EVD + MUSIC 411 µs</text>
+<rect x="181" y="302" width="564" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="460.0" y="323" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="middle">hop n weights (buffer A)</text>
+<rect x="745" y="302" width="205" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="753" y="323" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">buffer B, swap at +1.2 µs</text>
+<path d="M745,234 L745,338" fill="none" stroke="#000000" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="185" y="354" width="564" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="195" y="375" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">hop n signal</text>
+<rect x="749" y="354" width="12" height="32" rx="1" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+<rect x="761" y="354" width="189" height="32" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<text x="769" y="375" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">hop n+1 signal</text>
+<text x="741" y="375" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="end">mute 3+1 µs inside G (TC2 slack 16 µs) →</text>
+<path d="M183,438 L183,410" fill="none" stroke="#000000" stroke-width="2.0" marker-end="url(#a-red)" stroke-linejoin="round"/>
+<path d="M745,438 L745,410" fill="none" stroke="#000000" stroke-width="2.0" marker-end="url(#a-red)" stroke-linejoin="round"/>
+<text x="197" y="430" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">one per commit; 3 missed → board bypass (3.0 ms at 1 kHz)</text>
+<text x="950" y="478" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#666666" text-anchor="end" font-style="italic">not to scale · 1,000 hop/s design point · SCL 180 nm @ 50 MHz</text>
+</svg>

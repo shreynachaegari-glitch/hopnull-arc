@@ -1,0 +1,1244 @@
+{
+ "checks": [
+  {
+   "name": "closed-form null is exact (w^H a_J = 0)",
+   "ok": true
+  },
+  {
+   "name": "mainlobe gate bounds desired-signal gain >= 3 dB",
+   "ok": true
+  },
+  {
+   "name": "centre-arm phase <= 0.9 pi across the band (no wrap)",
+   "ok": true
+  },
+  {
+   "name": "phase-gradient DoA unbiased at JNR 20 dB, K 256",
+   "ok": true
+  },
+  {
+   "name": "two equal jammers never pass both V1 gates",
+   "ok": true
+  },
+  {
+   "name": "CLZ normalisation lands ||w|| in [0.5, 1)",
+   "ok": true
+  },
+  {
+   "name": "16-bit quantised weights pass the null self-check",
+   "ok": true
+  },
+  {
+   "name": "null self-check catches a 1 deg single-weight corruption",
+   "ok": true
+  },
+  {
+   "name": "TRUST_CUT never resurrects an expired entry",
+   "ok": true
+  },
+  {
+   "name": "frequency-tag invariant holds on every hop",
+   "ok": true
+  }
+ ],
+ "fixed_point": {
+  "floor_db": -83.62378136777158,
+  "threshold_db": -50.0,
+  "min_detectable_corruption_deg": 0.73
+ },
+ "geometry": [
+  {
+   "name": "ULA, 4 x 0.5 lambda",
+   "obs3d": false,
+   "gated_min_deg": 54.0,
+   "gated_max_deg": 150.0,
+   "defended_worst_pct": 58.33333333333333,
+   "defended_best_pct": 85.0,
+   "gain_median_db": 5.78201735406779
+  },
+  {
+   "name": "Square 2x2, 0.5 lambda",
+   "obs3d": true,
+   "gated_min_deg": 77.0,
+   "gated_max_deg": 118.0,
+   "defended_worst_pct": 67.22222222222223,
+   "defended_best_pct": 78.61111111111111,
+   "gain_median_db": 5.890725793768246
+  },
+  {
+   "name": "Square 2x2, 0.45 lambda",
+   "obs3d": true,
+   "gated_min_deg": 67.0,
+   "gated_max_deg": 120.0,
+   "defended_worst_pct": 66.66666666666667,
+   "defended_best_pct": 81.38888888888889,
+   "gain_median_db": 5.784254133383858
+  },
+  {
+   "name": "Y (centre + 3), r = 0.45 lambda",
+   "obs3d": true,
+   "gated_min_deg": 55.0,
+   "gated_max_deg": 55.0,
+   "defended_worst_pct": 84.72222222222221,
+   "defended_best_pct": 84.72222222222221,
+   "gain_median_db": 5.3369568451388885
+  }
+ ],
+ "calibration": {
+  "cal": [
+   {
+    "phase_rms_deg": 0.25,
+    "median_db": 48.58242986954575,
+    "p10_db": 42.97001362471279
+   },
+   {
+    "phase_rms_deg": 0.5,
+    "median_db": 42.76705816151739,
+    "p10_db": 36.96807806279596
+   },
+   {
+    "phase_rms_deg": 1,
+    "median_db": 36.47704132939787,
+    "p10_db": 30.96678241933528
+   },
+   {
+    "phase_rms_deg": 1.5,
+    "median_db": 33.08420034735917,
+    "p10_db": 27.513776422736093
+   },
+   {
+    "phase_rms_deg": 2,
+    "median_db": 30.675227602319843,
+    "p10_db": 25.030071923396246
+   },
+   {
+    "phase_rms_deg": 3,
+    "median_db": 26.824441999764453,
+    "p10_db": 21.177492047679905
+   },
+   {
+    "phase_rms_deg": 4,
+    "median_db": 24.60909839446896,
+    "p10_db": 18.896881178171437
+   },
+   {
+    "phase_rms_deg": 6,
+    "median_db": 20.913748000362194,
+    "p10_db": 15.172973596515078
+   }
+  ],
+  "phase_budget_30db_p10_deg": 1,
+  "phase_budget_25db_p10_deg": 2,
+  "est": [
+   {
+    "K": 32,
+    "jnr_db": 10,
+    "rejection_db": 33.24377080546856,
+    "residual_jn_db": -23.243770805468557,
+    "sigma_kxy": 0.012236683345993317
+   },
+   {
+    "K": 32,
+    "jnr_db": 20,
+    "rejection_db": 42.85313806605694,
+    "residual_jn_db": -22.853138066056943,
+    "sigma_kxy": 0.0037298108617393314
+   },
+   {
+    "K": 32,
+    "jnr_db": 30,
+    "rejection_db": 53.97508140279962,
+    "residual_jn_db": -23.975081402799617,
+    "sigma_kxy": 0.0011421361804670354
+   },
+   {
+    "K": 32,
+    "jnr_db": 40,
+    "rejection_db": 62.99173407618118,
+    "residual_jn_db": -22.99173407618118,
+    "sigma_kxy": 0.0003641527584960604
+   },
+   {
+    "K": 64,
+    "jnr_db": 10,
+    "rejection_db": 35.88849512345869,
+    "residual_jn_db": -25.88849512345869,
+    "sigma_kxy": 0.009007266300163916
+   },
+   {
+    "K": 64,
+    "jnr_db": 20,
+    "rejection_db": 45.51719864486106,
+    "residual_jn_db": -25.51719864486106,
+    "sigma_kxy": 0.00269695735557096
+   },
+   {
+    "K": 64,
+    "jnr_db": 30,
+    "rejection_db": 56.047329766859335,
+    "residual_jn_db": -26.047329766859335,
+    "sigma_kxy": 0.0008335617739490691
+   },
+   {
+    "K": 64,
+    "jnr_db": 40,
+    "rejection_db": 67.69792874091044,
+    "residual_jn_db": -27.69792874091044,
+    "sigma_kxy": 0.0002678555044316047
+   },
+   {
+    "K": 128,
+    "jnr_db": 10,
+    "rejection_db": 39.19376125301801,
+    "residual_jn_db": -29.19376125301801,
+    "sigma_kxy": 0.0063336893541029535
+   },
+   {
+    "K": 128,
+    "jnr_db": 20,
+    "rejection_db": 50.45971783686788,
+    "residual_jn_db": -30.45971783686788,
+    "sigma_kxy": 0.001819095317897542
+   },
+   {
+    "K": 128,
+    "jnr_db": 30,
+    "rejection_db": 58.48741431368292,
+    "residual_jn_db": -28.48741431368292,
+    "sigma_kxy": 0.0005730548963898151
+   },
+   {
+    "K": 128,
+    "jnr_db": 40,
+    "rejection_db": 69.87180188892447,
+    "residual_jn_db": -29.871801888924466,
+    "sigma_kxy": 0.00018168877637454183
+   },
+   {
+    "K": 256,
+    "jnr_db": 10,
+    "rejection_db": 42.338092305142794,
+    "residual_jn_db": -32.338092305142794,
+    "sigma_kxy": 0.004241105512291986
+   },
+   {
+    "K": 256,
+    "jnr_db": 20,
+    "rejection_db": 51.54057004636898,
+    "residual_jn_db": -31.540570046368977,
+    "sigma_kxy": 0.001339396279246415
+   },
+   {
+    "K": 256,
+    "jnr_db": 30,
+    "rejection_db": 63.46870015729289,
+    "residual_jn_db": -33.46870015729289,
+    "sigma_kxy": 0.0004146828856084596
+   },
+   {
+    "K": 256,
+    "jnr_db": 40,
+    "rejection_db": 71.98295857130833,
+    "residual_jn_db": -31.98295857130833,
+    "sigma_kxy": 0.0001344127856210512
+   },
+   {
+    "K": 512,
+    "jnr_db": 10,
+    "rejection_db": 45.6200623633553,
+    "residual_jn_db": -35.6200623633553,
+    "sigma_kxy": 0.0030739173847660946
+   },
+   {
+    "K": 512,
+    "jnr_db": 20,
+    "rejection_db": 55.24033668773244,
+    "residual_jn_db": -35.24033668773244,
+    "sigma_kxy": 0.00090031612621002
+   },
+   {
+    "K": 512,
+    "jnr_db": 30,
+    "rejection_db": 65.42713451072377,
+    "residual_jn_db": -35.427134510723775,
+    "sigma_kxy": 0.0002979687518129849
+   },
+   {
+    "K": 512,
+    "jnr_db": 40,
+    "rejection_db": 76.31540700788833,
+    "residual_jn_db": -36.315407007888325,
+    "sigma_kxy": 9.583050963369842e-05
+   }
+  ],
+  "K": 256,
+  "T_obs_us": 25.599999999999998,
+  "sigma_kxy_at_K_20db": 0.001339396279246415,
+  "residual_jn_at_K": [
+   {
+    "jnr_db": 10,
+    "residual_jn_db": -32.338092305142794
+   },
+   {
+    "jnr_db": 20,
+    "residual_jn_db": -31.540570046368977
+   },
+   {
+    "jnr_db": 30,
+    "residual_jn_db": -33.46870015729289
+   },
+   {
+    "jnr_db": 40,
+    "residual_jn_db": -31.98295857130833
+   }
+  ]
+ },
+ "survival": {
+  "tol30_deg": {
+   "az": [
+    30.0,
+    45.0,
+    60.0,
+    75.0,
+    90.0,
+    105.0,
+    120.0,
+    135.0,
+    150.0,
+    165.0,
+    180.0,
+    195.0,
+    210.0,
+    225.0,
+    240.0,
+    255.0,
+    270.0,
+    285.0,
+    300.0,
+    315.0,
+    330.0
+   ],
+   "tol": [
+    0.58,
+    0.62,
+    0.775,
+    2.0,
+    1.305,
+    0.775,
+    0.835,
+    1.31,
+    1.325,
+    1.515,
+    5.055,
+    1.515,
+    1.325,
+    1.31,
+    0.835,
+    0.775,
+    1.305,
+    2.0,
+    0.775,
+    0.62,
+    0.58
+   ],
+   "min": 0.5800000000000001,
+   "median": 1.305
+  },
+  "survival_table": [
+   {
+    "range_km": 1.0,
+    "los_rate_dps": 3.437746770784939,
+    "t_earth_s": 0.16871516102611855,
+    "t_earth_med_s": 0.37960911230876665,
+    "t_jammer_only_s": 0.3374303220522371,
+    "ratio_vs_turn": 5.817764173314432
+   },
+   {
+    "range_km": 2.0,
+    "los_rate_dps": 1.7188733853924696,
+    "t_earth_s": 0.3374303220522371,
+    "t_earth_med_s": 0.7592182246175333,
+    "t_jammer_only_s": 0.6748606441044742,
+    "ratio_vs_turn": 11.635528346628863
+   },
+   {
+    "range_km": 5.0,
+    "los_rate_dps": 0.6875493541569879,
+    "t_earth_s": 0.8435758051305926,
+    "t_earth_med_s": 1.8980455615438332,
+    "t_jammer_only_s": 1.6871516102611852,
+    "ratio_vs_turn": 29.088820866572156
+   },
+   {
+    "range_km": 10.0,
+    "los_rate_dps": 0.34377467707849396,
+    "t_earth_s": 1.6871516102611852,
+    "t_earth_med_s": 3.7960911230876664,
+    "t_jammer_only_s": 3.3743032205223704,
+    "ratio_vs_turn": 58.17764173314431
+   },
+   {
+    "range_km": 20.0,
+    "los_rate_dps": 0.17188733853924698,
+    "t_earth_s": 3.3743032205223704,
+    "t_earth_med_s": 7.592182246175333,
+    "t_jammer_only_s": 6.748606441044741,
+    "ratio_vs_turn": 116.35528346628863
+   }
+  ],
+  "t_body_turn_ms": 29.000000000000004,
+  "t_body_turn_med_ms": 65.25,
+  "t_body_maxrate_ms": 9.666666666666668,
+  "rate_ratio_10km_jammer_only": 116.35528346628863,
+  "imu": {
+   "gyro_drift_deg_per_s_age": 0.002777777777777778,
+   "skew_err_deg": 0.006,
+   "abs_attitude_err_cancels": true
+  },
+  "fiism_hit": {
+   "hop_rate": 1000.0,
+   "n_subbands": 8,
+   "age_body_s": 0.009666666666666667,
+   "p_body": 0.6993421986699104,
+   "age_earth_s": 0.3374303220522371,
+   "p_earth": 1.0
+  },
+  "tilt": {
+   "sigma_kxy": 0.001339396279246415,
+   "el_err_deg": 0.7726736534720315,
+   "tilt_max_deg": 22.15943153451041
+  },
+  "stale_vs_span": [
+   {
+    "span_pct": 1.0,
+    "median_db": 34.250189791674146,
+    "p10_db": 32.036988763393424
+   },
+   {
+    "span_pct": 3.4000000000000004,
+    "median_db": 23.666884973412987,
+    "p10_db": 21.428988356166805
+   },
+   {
+    "span_pct": 10.0,
+    "median_db": 14.729916068245286,
+    "p10_db": 11.727356009137177
+   },
+   {
+    "span_pct": 20.0,
+    "median_db": 9.191909331606537,
+    "p10_db": 5.629546748830544
+   },
+   {
+    "span_pct": 40.0,
+    "median_db": 4.468689714186668,
+    "p10_db": -0.2526004646404877
+   }
+  ]
+ },
+ "latency": {
+  "ops": {
+   "B1": [
+    [
+     "3 centre-arm correlators -> phase/magnitude (CORDIC vectoring)",
+     3,
+     0,
+     "streamed during T_obs"
+    ],
+    [
+     "coherence gate |r_i0|^2 >= g^2 P_i P_0 (cross-multiplied)",
+     0,
+     9,
+     "no division"
+    ],
+    [
+     "closure phase arg(r1 r2 r3) = 0 (plane-wave / multipath gate)",
+     1,
+     8,
+     "arms sum to zero"
+    ],
+    [
+     "k_xy = LUT[1/f] * G(2x3) phi",
+     0,
+     8,
+     "constant G, per-channel reciprocal LUT"
+    ],
+    [
+     "k_z = sqrt(1-kx^2-ky^2), ground-plane sign",
+     0,
+     2,
+     "+ sqrt unit"
+    ],
+    [
+     "quaternion -> DCM, body -> earth (C_eb k)",
+     0,
+     21,
+     "IMU attitude at t_obs"
+    ],
+    [
+     "presence gate + FIISM write-back",
+     0,
+     2,
+     ""
+    ]
+   ],
+   "B2": [
+    [
+     "attitude prediction q(n+1) = q(n) x dq(w dT)",
+     0,
+     24,
+     "first-order + renorm"
+    ],
+    [
+     "earth -> body for k_J and k_D (C_eb^T k)",
+     0,
+     30,
+     "DCM + 2 rotations"
+    ],
+    [
+     "element phases 2pi f/c (p.k), 4 elem x 2 dirs",
+     0,
+     24,
+     ""
+    ],
+    [
+     "steering vectors e^{j phi} (CORDIC rotation)",
+     8,
+     0,
+     ""
+    ],
+    [
+     "self-check |a_m|^2 = 1",
+     0,
+     16,
+     "independent of weight path"
+    ],
+    [
+     "rho = a_J^H a_D ; mainlobe gate |rho|^2 <= g M^2",
+     0,
+     18,
+     ""
+    ],
+    [
+     "w = M a_D - rho a_J (M a_D is a shift)",
+     0,
+     16,
+     ""
+    ],
+    [
+     "||w||^2, CLZ shift, 16-entry LUT refine",
+     0,
+     16,
+     "no reciprocal"
+    ],
+    [
+     "null self-check |w^H a_J|^2 <= eps ||w||^2",
+     0,
+     18,
+     "verifies the null exists"
+    ]
+   ],
+   "B3": [
+    [
+     "TRUST_CUT <- max(TRUST_CUT, now - MAX_AGE_eff)",
+     0,
+     0,
+     "1 subtract + 1 max"
+    ],
+    [
+     "FIISM read + validity/tilt checks",
+     0,
+     2,
+     "1 SRAM read"
+    ],
+    [
+     "arbitration FRESH > FIISM > BYPASS, freq-tag",
+     0,
+     0,
+     ""
+    ],
+    [
+     "bundle CRC/parity + shadow-buffer write",
+     0,
+     0,
+     "4 complex words"
+    ]
+   ],
+   "V2_PERHOP": [
+    [
+     "steering for 2 stored jammers at f(n+1)",
+     6,
+     18,
+     ""
+    ],
+    [
+     "model covariance at f(n+1): sum p_k a_k a_k^H + (1+dl) s^2 I",
+     0,
+     120,
+     "10 unique entries x 2 sources"
+    ],
+    [
+     "4x4 Cholesky (rsqrt via CORDIC)",
+     4,
+     56,
+     "no explicit inverse"
+    ],
+    [
+     "forward + back substitution with a_D (MVDR)",
+     0,
+     80,
+     ""
+    ],
+    [
+     "null self-check on both jammers",
+     0,
+     36,
+     ""
+    ]
+   ],
+   "V2_BACKGROUND": [
+    [
+     "4x4 Hermitian EVD: cyclic Jacobi, 5 fixed sweeps x 6 rotations",
+     60,
+     2880,
+     "bounded: no convergence test"
+    ],
+    [
+     "source count (eigenvalue threshold, cross-multiplied)",
+     0,
+     8,
+     ""
+    ],
+    [
+     "grid MUSIC: 662 fixed evaluations (coarse 64x8 + 3-level 5x5 refine)",
+     1986,
+     29790,
+     "bounded"
+    ],
+    [
+     "body -> earth rotation + FIISM write",
+     0,
+     42,
+     ""
+    ]
+   ]
+  },
+  "budget_fpga": {
+   "B1": 109,
+   "B2": 139,
+   "B3": 49,
+   "V2": 0,
+   "raw_cycles": 297,
+   "derated_cycles": 594.0,
+   "T_B_us": 5.9399999999999995
+  },
+  "budget_fpga_v2": {
+   "B1": 109,
+   "B2": 139,
+   "B3": 49,
+   "V2": 146,
+   "raw_cycles": 443,
+   "derated_cycles": 886.0,
+   "T_B_us": 8.86
+  },
+  "margins_fpga": [
+   {
+    "name": "Slow FH",
+    "hop_rate": 200.0,
+    "T_hop_us": 5000.0,
+    "G_us": 50.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 5.939999999999999,
+    "T1_slack_us": 4919.66,
+    "T1_util": 0.016304087019115412,
+    "T2_slack_us": 46.0,
+    "T3_slack_us": 4996.24,
+    "settle_slack_us": 49.9,
+    "ok": true
+   },
+   {
+    "name": "Design point",
+    "hop_rate": 1000.0,
+    "T_hop_us": 1000.0,
+    "G_us": 20.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 5.939999999999999,
+    "T1_slack_us": 949.6600000000001,
+    "T1_util": 0.051478226128645624,
+    "T2_slack_us": 16.000000000000004,
+    "T3_slack_us": 996.24,
+    "settle_slack_us": 19.900000000000002,
+    "ok": true
+   },
+   {
+    "name": "Fast FH",
+    "hop_rate": 5000.0,
+    "T_hop_us": 200.0,
+    "G_us": 10.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 5.939999999999999,
+    "T1_slack_us": 159.66,
+    "T1_util": 0.20646123260437374,
+    "T2_slack_us": 6.000000000000001,
+    "T3_slack_us": 196.24,
+    "settle_slack_us": 9.9,
+    "ok": true
+   }
+  ],
+  "margins_fpga_v2": [
+   {
+    "name": "Slow FH",
+    "hop_rate": 200.0,
+    "T_hop_us": 5000.0,
+    "G_us": 50.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 8.86,
+    "T1_slack_us": 4916.74,
+    "T1_util": 0.01688794689274574,
+    "T2_slack_us": 46.0,
+    "T3_slack_us": 4996.24,
+    "settle_slack_us": 49.9,
+    "ok": true
+   },
+   {
+    "name": "Design point",
+    "hop_rate": 1000.0,
+    "T_hop_us": 1000.0,
+    "G_us": 20.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 8.86,
+    "T1_slack_us": 946.74,
+    "T1_util": 0.054394726328405904,
+    "T2_slack_us": 16.000000000000004,
+    "T3_slack_us": 996.24,
+    "settle_slack_us": 19.900000000000002,
+    "ok": true
+   },
+   {
+    "name": "Fast FH",
+    "hop_rate": 5000.0,
+    "T_hop_us": 200.0,
+    "G_us": 10.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 8.86,
+    "T1_slack_us": 156.74,
+    "T1_util": 0.22097415506958248,
+    "T2_slack_us": 6.000000000000001,
+    "T3_slack_us": 196.24,
+    "settle_slack_us": 9.9,
+    "ok": true
+   }
+  ],
+  "max_hop_fpga": 24789.29102627665,
+  "max_hop_fpga_v2": 23116.042533518263,
+  "v2_background_fpga": {
+   "cycles": 20552.0,
+   "time_us": 205.52,
+   "music_evals": 662,
+   "cov_mults_per_s": 400000000.0,
+   "cov_multipliers_needed": 4,
+   "per_scenario": [
+    {
+     "name": "Slow FH",
+     "hop_rate": 200.0,
+     "hops": 1
+    },
+    {
+     "name": "Design point",
+     "hop_rate": 1000.0,
+     "hops": 1
+    },
+    {
+     "name": "Fast FH",
+     "hop_rate": 5000.0,
+     "hops": 2
+    }
+   ]
+  },
+  "budget_asic": {
+   "B1": 109,
+   "B2": 139,
+   "B3": 49,
+   "V2": 0,
+   "raw_cycles": 297,
+   "derated_cycles": 594.0,
+   "T_B_us": 11.879999999999999
+  },
+  "budget_asic_v2": {
+   "B1": 109,
+   "B2": 139,
+   "B3": 49,
+   "V2": 146,
+   "raw_cycles": 443,
+   "derated_cycles": 886.0,
+   "T_B_us": 17.72
+  },
+  "margins_asic": [
+   {
+    "name": "Slow FH",
+    "hop_rate": 200.0,
+    "T_hop_us": 5000.0,
+    "G_us": 50.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 11.879999999999997,
+    "T1_slack_us": 4913.72,
+    "T1_util": 0.017491801967527792,
+    "T2_slack_us": 46.0,
+    "T3_slack_us": 4992.4800000000005,
+    "settle_slack_us": 49.9,
+    "ok": true
+   },
+   {
+    "name": "Design point",
+    "hop_rate": 1000.0,
+    "T_hop_us": 1000.0,
+    "G_us": 20.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 11.879999999999997,
+    "T1_slack_us": 943.7200000000001,
+    "T1_util": 0.0574111066719936,
+    "T2_slack_us": 16.000000000000004,
+    "T3_slack_us": 992.48,
+    "settle_slack_us": 19.900000000000002,
+    "ok": true
+   },
+   {
+    "name": "Fast FH",
+    "hop_rate": 5000.0,
+    "T_hop_us": 200.0,
+    "G_us": 10.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 11.879999999999997,
+    "T1_slack_us": 153.72,
+    "T1_util": 0.23598409542743537,
+    "T2_slack_us": 6.000000000000001,
+    "T3_slack_us": 192.48,
+    "settle_slack_us": 9.9,
+    "ok": true
+   }
+  ],
+  "margins_asic_v2": [
+   {
+    "name": "Slow FH",
+    "hop_rate": 200.0,
+    "T_hop_us": 5000.0,
+    "G_us": 50.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 17.72,
+    "T1_slack_us": 4907.88,
+    "T1_util": 0.01865952171478845,
+    "T2_slack_us": 46.0,
+    "T3_slack_us": 4992.4800000000005,
+    "settle_slack_us": 49.9,
+    "ok": true
+   },
+   {
+    "name": "Design point",
+    "hop_rate": 1000.0,
+    "T_hop_us": 1000.0,
+    "G_us": 20.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 17.72,
+    "T1_slack_us": 937.8800000000001,
+    "T1_util": 0.06324410707151418,
+    "T2_slack_us": 16.000000000000004,
+    "T3_slack_us": 992.48,
+    "settle_slack_us": 19.900000000000002,
+    "ok": true
+   },
+   {
+    "name": "Fast FH",
+    "hop_rate": 5000.0,
+    "T_hop_us": 200.0,
+    "G_us": 10.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 17.72,
+    "T1_slack_us": 147.88000000000002,
+    "T1_util": 0.26500994035785286,
+    "T2_slack_us": 6.000000000000001,
+    "T3_slack_us": 192.48,
+    "settle_slack_us": 9.9,
+    "ok": true
+   }
+  ],
+  "max_hop_asic": 21607.6058772688,
+  "max_hop_asic_v2": 19186.492709132774,
+  "v2_background_asic": {
+   "cycles": 20552.0,
+   "time_us": 411.04,
+   "music_evals": 662,
+   "cov_mults_per_s": 400000000.0,
+   "cov_multipliers_needed": 8,
+   "per_scenario": [
+    {
+     "name": "Slow FH",
+     "hop_rate": 200.0,
+     "hops": 1
+    },
+    {
+     "name": "Design point",
+     "hop_rate": 1000.0,
+     "hops": 1
+    },
+    {
+     "name": "Fast FH",
+     "hop_rate": 5000.0,
+     "hops": 3
+    }
+   ]
+  },
+  "pll_settle_check": [
+   {
+    "name": "Slow FH",
+    "hop_rate": 200.0,
+    "T_hop_us": 5000.0,
+    "G_us": 50.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 11.879999999999997,
+    "T1_slack_us": 4913.72,
+    "T1_util": 0.017491801967527792,
+    "T2_slack_us": 46.0,
+    "T3_slack_us": 4992.4800000000005,
+    "settle_slack_us": 10.0,
+    "ok": true
+   },
+   {
+    "name": "Design point",
+    "hop_rate": 1000.0,
+    "T_hop_us": 1000.0,
+    "G_us": 20.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 11.879999999999997,
+    "T1_slack_us": 943.7200000000001,
+    "T1_util": 0.0574111066719936,
+    "T2_slack_us": 16.000000000000004,
+    "T3_slack_us": 992.48,
+    "settle_slack_us": -20.0,
+    "ok": false
+   },
+   {
+    "name": "Fast FH",
+    "hop_rate": 5000.0,
+    "T_hop_us": 200.0,
+    "G_us": 10.0,
+    "T_obs_us": 25.599999999999998,
+    "T_B_us": 11.879999999999997,
+    "T1_slack_us": 153.72,
+    "T1_util": 0.23598409542743537,
+    "T2_slack_us": 6.000000000000001,
+    "T3_slack_us": 192.48,
+    "settle_slack_us": -30.000000000000004,
+    "ok": false
+   }
+  ],
+  "case_b": [
+   {
+    "hop_rate": 200.0,
+    "G_us": 50.0,
+    "drift_ns_per_hop": 200.0,
+    "n_coast_hops": 120,
+    "coast_ms": 600.0,
+    "t_detect_us": 0.64,
+    "unprotected_us": 25.8,
+    "unprotected_frac": 0.00516,
+    "subband_bw_mhz": 10.4375
+   },
+   {
+    "hop_rate": 1000.0,
+    "G_us": 20.0,
+    "drift_ns_per_hop": 39.99999999999999,
+    "n_coast_hops": 225,
+    "coast_ms": 225.0,
+    "t_detect_us": 0.64,
+    "unprotected_us": 10.800000000000002,
+    "unprotected_frac": 0.0108,
+    "subband_bw_mhz": 10.4375
+   },
+   {
+    "hop_rate": 5000.0,
+    "G_us": 10.0,
+    "drift_ns_per_hop": 8.0,
+    "n_coast_hops": 500,
+    "coast_ms": 100.0,
+    "t_detect_us": 0.64,
+    "unprotected_us": 5.800000000000001,
+    "unprotected_frac": 0.029,
+    "subband_bw_mhz": 10.4375
+   }
+  ],
+  "subband_rejection_db": [
+   45.02456034508154,
+   47.4330816649985
+  ],
+  "gain_step_db": {
+   "lut0": 6.020362193658198,
+   "lut3": 0.5085500064386764
+  }
+ },
+ "multijammer": {
+  "example": {
+   "jammers": [
+    {
+     "az": 70.0,
+     "jnr_db": 30.0
+    },
+    {
+     "az": 140.0,
+     "jnr_db": 25.0
+    }
+   ],
+   "f_n": 2405000000.0,
+   "f_n1": 2478000000.0,
+   "K": 256,
+   "v1_gates": {
+    "coherence": false,
+    "closure": false
+   },
+   "jacobi_sweeps": 5,
+   "jacobi_offdiag": 6.680350658550071e-13,
+   "n_src": 2,
+   "music_evals": 662,
+   "doa_err_deg": [
+    0.0925062858480447,
+    0.09589278929543733
+   ],
+   "v2_rejection_db": [
+    48.01249261354914,
+    61.184950879418764
+   ],
+   "v2_desired_gain_db": 4.199901920986542,
+   "stale_weight_rejection_db": [
+    25.353946303958864,
+    23.58763848090834
+   ],
+   "same_freq_smi_rejection_db": [
+    64.93541667150454,
+    52.75172225441735
+   ]
+  },
+  "mc": {
+   "trials": 150,
+   "detected_2": 150,
+   "v1_refused": 117,
+   "median_db": 46.248464188375166,
+   "p10_db": 41.707456360141734,
+   "doa_err_median_deg": 0.15124560560547295,
+   "doa_err_p90_deg": 0.2621636778505203,
+   "stale_median_db": 34.625282397507156
+  }
+ },
+ "survivability": {
+  "link": {
+   "fspl_db": 114.17497983537834,
+   "S_dbm": -88.17497983537834,
+   "N_dbm": -110.0,
+   "SNR_db": 21.825020164621662,
+   "margin_db": 11.825020164621662
+  },
+  "gain_after_null_db": {
+   "median": 5.3369568451388885,
+   "min": 3.4853074569711584
+  },
+  "horizon_km": 105.15458463288506,
+  "design_rejection_db": 30.0,
+  "range_divisor": 58.45852352286241,
+  "power_multiplier_db": 35.336956845138886,
+  "burn_through": [
+   {
+    "jam_eirp_dbm": 30,
+    "w_eirp": 1.0,
+    "spot_no_null_km": 25.92534000754883,
+    "spot_null_km": 0.43284942089766604,
+    "barrage_no_null_km": 2.9168286369886625,
+    "barrage_null_km": 0.048699364637480036
+   },
+   {
+    "jam_eirp_dbm": 40,
+    "w_eirp": 10.0,
+    "spot_no_null_km": 81.98312353814117,
+    "spot_null_km": 1.3687900539215094,
+    "barrage_no_null_km": 9.22382203728863,
+    "barrage_null_km": 0.15400091285749723
+   },
+   {
+    "jam_eirp_dbm": 50,
+    "w_eirp": 100.0,
+    "spot_no_null_km": 259.2534000754883,
+    "spot_null_km": 4.328494208976661,
+    "barrage_no_null_km": 29.168286369886566,
+    "barrage_null_km": 0.4869936463748009
+   },
+   {
+    "jam_eirp_dbm": 60,
+    "w_eirp": 1000.0,
+    "spot_no_null_km": 819.8312353814117,
+    "spot_null_km": 13.687900539215095,
+    "barrage_no_null_km": 92.23822037288612,
+    "barrage_null_km": 1.5400091285749726
+   }
+  ],
+  "max_jnr_db": {
+   "with_hopnull": 47.07768343498125,
+   "without": 11.529931035031582
+  },
+  "follower": {
+   "delay_us": 26.67128190396304,
+   "covered_frac": 0.9733287180960369,
+   "fhss_only_hop_rate_needed": 28120.133209216267
+  },
+  "follower_5k": {
+   "delay_us": 26.67128190396304,
+   "covered_frac": 0.8666435904801848,
+   "fhss_only_hop_rate_needed": 28120.133209216267
+  },
+  "gnss_denied": [
+   {
+    "err_deg": 2,
+    "loss_db": 0.013075536554966405
+   },
+   {
+    "err_deg": 5,
+    "loss_db": 0.07783466691984664
+   },
+   {
+    "err_deg": 10,
+    "loss_db": 0.29095382172269435
+   },
+   {
+    "err_deg": 20,
+    "loss_db": 1.0761319213281721
+   }
+  ],
+  "failsafe": {
+   "hop_rate": 1000.0,
+   "logic_fault_ms": 3.0010000000000003,
+   "power_loss_ms": 15.0,
+   "hops_lost_logic": 4,
+   "hops_lost_power": 15,
+   "worst_ms": 15.0,
+   "drdo_budget_ms": 500.0,
+   "margin_vs_drdo": 33.333333333333336,
+   "margin_vs_autopilot": 100.0,
+   "insertion_loss_db": 0.6,
+   "range_cost_pct": 6.674569920300899
+  },
+  "failsafe_5k": {
+   "hop_rate": 5000.0,
+   "logic_fault_ms": 0.6010000000000001,
+   "power_loss_ms": 15.0,
+   "hops_lost_logic": 4,
+   "hops_lost_power": 75,
+   "worst_ms": 15.0,
+   "drdo_budget_ms": 500.0,
+   "margin_vs_drdo": 33.333333333333336,
+   "margin_vs_autopilot": 100.0,
+   "insertion_loss_db": 0.6,
+   "range_cost_pct": 6.674569920300899
+  },
+  "zeroize": {
+   "words": 80,
+   "fiism_kbit": 8.0,
+   "time_us": 1.5999999999999999,
+   "energy_uJ": 0.16,
+   "holdup_uJ": 23.199999999999992,
+   "margin": 144.99999999999994
+  }
+ },
+ "params": {
+  "array": {
+   "M": 4,
+   "f_design_hz": 2483500000.0,
+   "r_frac": 0.45,
+   "geometry": "Y: centre + 3 at 120 deg, belly-mounted, x fwd / y right / z down (body FRD)"
+  },
+  "r_mm": 54.32116210992551,
+  "fs_hz": 10000000.0,
+  "K": 256,
+  "clocks": {
+   "fpga_hz": 100000000.0,
+   "asic_hz": 50000000.0
+  },
+  "hw": {
+   "mults": 4,
+   "cordic_iter": 16,
+   "cordic_latency": 18,
+   "sqrt_latency": 18,
+   "overhead_per_stage": 8,
+   "derate": 2.0
+  },
+  "link": {
+   "f_hz": 2440000000.0,
+   "gcs_eirp_dbm": 36.0,
+   "uav_elem_gain_dbi": 0.0,
+   "noise_figure_db": 4.0,
+   "fade_margin_db": 10.0,
+   "sinr_req_db": 10.0,
+   "uav_alt_m": 500.0,
+   "jammer_mast_m": 10.0
+  },
+  "drdo": {
+   "link_range_m": 5000.0,
+   "position_correction_s": 0.5
+  },
+  "failsafe": {
+   "watchdog_missed_hops": 3,
+   "ss_switch_s": 1e-06,
+   "relay_switch_s": 0.015,
+   "autopilot_failsafe_s": 1.5,
+   "insertion_loss_db": 0.6
+  },
+  "timing": [
+   {
+    "name": "Slow FH",
+    "hop_rate": 200.0,
+    "G_s": 5e-05
+   },
+   {
+    "name": "Design point",
+    "hop_rate": 1000.0,
+    "G_s": 2e-05
+   },
+   {
+    "name": "Fast FH",
+    "hop_rate": 5000.0,
+    "G_s": 1e-05
+   }
+  ],
+  "pipe": {
+   "L_pre_s": 1.2e-06,
+   "L_total_s": 3e-06,
+   "T_flush_s": 1e-06,
+   "settle_nco_s": 1e-07,
+   "settle_pll_s": 4e-05
+  },
+  "caseb": {
+   "clock_ppm_modem": 20.0,
+   "clock_ppm_accel": 20.0,
+   "transition_detect_s": 1e-06,
+   "fft_n": 64,
+   "fs_wide_hz": 100000000.0,
+   "n_subbands": 8
+  },
+  "imu": {
+   "gyro_bias_dph": 10.0,
+   "timestamp_skew_s": 0.0001,
+   "attitude_err_deg": 0.5
+  },
+  "platform": {
+   "turn_rate_dps": 20.0,
+   "max_body_rate_dps": 60.0,
+   "roll_rate_dps": 45.0,
+   "speed_mps": 30.0
+  },
+  "jammer": {
+   "speed_mps": 30.0,
+   "ranges_m": [
+    1000,
+    2000,
+    5000,
+    10000,
+    20000
+   ]
+  }
+ }
+}

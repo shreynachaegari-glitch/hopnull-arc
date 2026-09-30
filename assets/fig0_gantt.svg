@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="392" viewBox="0 0 960 392"><defs><marker id="a-nav" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-amb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000000"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#666666"/></marker></defs><rect x="0" y="0" width="960" height="392" fill="#FFFFFF"/>
+<text x="8" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#333333" text-anchor="start">Phase / work package</text>
+<text x="279.44444444444446" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">1</text>
+<path d="M262.0,30 L262.0,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="314.3333333333333" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">2</text>
+<path d="M296.8888888888889,30 L296.8888888888889,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="349.22222222222223" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">3</text>
+<path d="M331.77777777777777,30 L331.77777777777777,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="384.1111111111111" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">4</text>
+<path d="M366.66666666666663,30 L366.66666666666663,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="419.0" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">5</text>
+<path d="M401.55555555555554,30 L401.55555555555554,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="453.88888888888886" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">6</text>
+<path d="M436.44444444444446,30 L436.44444444444446,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="488.77777777777777" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">7</text>
+<path d="M471.3333333333333,30 L471.3333333333333,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="523.6666666666666" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">8</text>
+<path d="M506.2222222222222,30 L506.2222222222222,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="558.5555555555555" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">9</text>
+<path d="M541.1111111111111,30 L541.1111111111111,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="593.4444444444443" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">10</text>
+<path d="M576.0,30 L576.0,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="628.3333333333333" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">11</text>
+<path d="M610.8888888888889,30 L610.8888888888889,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="663.2222222222222" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">12</text>
+<path d="M645.7777777777777,30 L645.7777777777777,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="698.1111111111111" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">13</text>
+<path d="M680.6666666666666,30 L680.6666666666666,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="733.0" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">14</text>
+<path d="M715.5555555555555,30 L715.5555555555555,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="767.8888888888889" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">15</text>
+<path d="M750.4444444444443,30 L750.4444444444443,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="802.7777777777777" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">16</text>
+<path d="M785.3333333333333,30 L785.3333333333333,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="837.6666666666666" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">17</text>
+<path d="M820.2222222222222,30 L820.2222222222222,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="872.5555555555555" y="22" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="normal" fill="#333333" text-anchor="middle">18</text>
+<path d="M855.1111111111111,30 L855.1111111111111,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<path d="M890,30 L890,384" fill="none" stroke="#EFEEEA" stroke-width="1" stroke-linejoin="round"/>
+<text x="8" y="53" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">1  Golden model + analysis</text>
+<rect x="264.0" y="39" width="135.55555555555554" height="20" rx="5" fill="#E0E0E0" stroke="#000000" stroke-width="1.3"/>
+<path d="M399.55555555555554,39 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="412.55555555555554" y="54" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D1</text>
+<text x="8" y="85" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">2  RTL V1 + formal TC1–TC3</text>
+<rect x="403.55555555555554" y="71" width="170.44444444444443" height="20" rx="5" fill="#E0E0E0" stroke="#000000" stroke-width="1.3"/>
+<path d="M574.0,71 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="587.0" y="86" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D2</text>
+<text x="26" y="117" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">TAP/scan lock, zeroize, boot</text>
+<rect x="438.44444444444446" y="103" width="135.55555555555554" height="20" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.3"/>
+<rect x="443.44444444444446" y="106" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="455.14444444444445" y="118.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<text x="8" y="149" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">3  FPGA + RF + board fail-safe</text>
+<rect x="578.0" y="135" width="100.66666666666666" height="20" rx="5" fill="#E0E0E0" stroke="#000000" stroke-width="1.3"/>
+<path d="M678.6666666666666,135 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="691.6666666666666" y="150" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D3</text>
+<text x="26" y="181" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">Tamper switches + potting</text>
+<rect x="578.0" y="167" width="100.66666666666666" height="20" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.3"/>
+<rect x="583.0" y="170" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="594.7" y="182.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<text x="26" y="213" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">Adaptive AGC loop</text>
+<rect x="578.0" y="199" width="100.66666666666666" height="20" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.3" stroke-dasharray="4 3"/>
+<rect x="583.0" y="202" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="594.7" y="214.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<text x="26" y="245" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">Environmental screening</text>
+<rect x="647.7777777777777" y="231" width="65.77777777777777" height="20" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.3"/>
+<rect x="652.7777777777777" y="234" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="664.4777777777778" y="246.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T1</text>
+<path d="M713.5555555555555,231 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="726.5555555555555" y="246" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D4</text>
+<text x="8" y="277" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">4  Conducted-jamming campaign</text>
+<rect x="682.6666666666666" y="263" width="100.66666666666666" height="20" rx="5" fill="#E0E0E0" stroke="#000000" stroke-width="1.3"/>
+<path d="M783.3333333333333,263 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="796.3333333333333" y="278" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D5</text>
+<text x="26" y="309" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">V2 Cholesky + verification</text>
+<rect x="612.8888888888889" y="295" width="170.44444444444443" height="20" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.3" stroke-dasharray="4 3"/>
+<rect x="617.8888888888889" y="298" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="629.588888888889" y="310.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<path d="M783.3333333333333,295 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="796.3333333333333" y="310" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D6</text>
+<text x="26" y="341" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#000000" text-anchor="start">Case-B dwell-timer bound</text>
+<rect x="682.6666666666666" y="327" width="65.77777777777777" height="20" rx="5" fill="#FFFFFF" stroke="#000000" stroke-width="1.3" stroke-dasharray="4 3"/>
+<rect x="687.6666666666666" y="330" width="23.4" height="17" rx="4" fill="#000000" stroke="#000000" stroke-width="0"/>
+<text x="699.3666666666667" y="342.5" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">T2</text>
+<path d="M748.4444444444443,327 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="761.4444444444443" y="342" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D7</text>
+<text x="8" y="373" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">5  SCL 180 nm + C2S package</text>
+<rect x="787.3333333333333" y="359" width="100.66666666666666" height="20" rx="5" fill="#E0E0E0" stroke="#000000" stroke-width="1.3"/>
+<path d="M888.0,359 l9,10 l-9,10 l-9,-10 z" fill="#000000"/>
+<text x="901.0" y="374" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="start">D8</text>
+</svg>
